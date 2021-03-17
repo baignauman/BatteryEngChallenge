@@ -6,6 +6,7 @@ Procedure:
 Moreover Rint also does not qualify as a good candidate since it is not monotonically increasing over the cyclic aging of the system.
 
 2). An exponential polynomial fitting is tested. Results are presented as pdf.
+
 3). Since prediction of capacity is the target function, a fitting neural network is selected and tested against the data. One hidden layer is selected for faster evaluation time. Results are presented as pdf.
 
 Software Platform:
