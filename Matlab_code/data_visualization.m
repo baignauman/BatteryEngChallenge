@@ -2,7 +2,6 @@ clc
 close all
 clear all
 %% Data Read section
-cd ("C:\Users\SS_hp\Desktop\circunomics")
 M=csvread('2018-04-12_batch8_CH33.csv',1,0);
 cycle_index=M(:,6);
 start_indx=min(find(cycle_index==1));
