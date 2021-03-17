@@ -1,6 +1,7 @@
 # BatteryEngChallenge
 
 Procedure:
+
 1). To predict the discharge capacity of the given storage system, the no. of discharge cycles vs the battery capacity is evaluated. The co-relation between capacity and temperature is ignored since it is almost constant throughout the dataset.
 Moreover Rint also does not qualify as a good candidate since it is not monotonically increasing over the cyclic aging of the system.
 
