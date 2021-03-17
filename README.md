@@ -7,7 +7,7 @@ Moreover Rint also does not qualify as a good candidate since it is not monotoni
 
 2). An exponential polynomial fitting is tested. Results are presented as pdf.
 
-3). Since prediction of capacity is the target function, a fitting neural network is selected and tested against the data. One hidden layer is selected for faster evaluation time. Results are presented as pdf.
+3). Since prediction of discharge capacity is the target function, a fitting neural network is selected and tested against the data. One hidden layer is selected for faster evaluation time. Results are presented as pdf.
 
 Software Platform:
 Matlab is used as a platform of choice. The Matlab m-script is provided with the results. Matlab version R2020b is used for writing the script. The machnine / deep learning toolbox is required for proper execution of the script.
