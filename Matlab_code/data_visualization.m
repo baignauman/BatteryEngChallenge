@@ -124,7 +124,7 @@ dch_energy_max_arr_smth=lsim(sys,dch_cap_max_arr,cyc_idx)*100;
   ylabel('SOHr[%]')
   grid on
   subplot(2,1,2)
-  plot(x,(poly-dch_cap_max_arr*100)./(dch_cap_max_arr*100)*100)
+  plot(x,(poly-dch_cap_max_arr*100)./(dch_cap_max_arr*100)*20)
   xlabel('Ncycle')
   ylabel('Relative error[%]')
   grid on
