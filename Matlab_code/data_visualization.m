@@ -180,7 +180,7 @@ legend('Fitted Dch Cap','Actual Dch Cap ')
 subplot(2,1,2)
 
 subplot(2,1,2)
-plot(x,(y*100-dch_cap_max_arr*100)./(dch_cap_max_arr*100)*100)
+plot(x,(y*100-dch_cap_max_arr*100)./(dch_cap_max_arr*100)*20)
 xlabel('Ncycle')
 ylabel('Relative error[%]')
 grid on
